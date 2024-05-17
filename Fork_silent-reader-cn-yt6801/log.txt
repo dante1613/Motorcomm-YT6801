@@ -1,0 +1,395 @@
+********************  start  *********************************
+2024年 04月 26日 星期五 20:08:16 CST
+Do not use sudo！
+Please run this file as root！！
+********************  error end  *********************************
+
+********************  start  *********************************
+2024年 04月 26日 星期五 20:08:36 CST
+Check old driver and unload it.
+Build Motorcomm NIC driver module and install
+
+CC:  cc
+CCVERSION:  14
+KERNEL_GCC_VERSION: 
+KVER:  6.8.7-300.fc40.x86_64
+
+
+make -C src/ clean
+make[1]: 进入目录“/home/wangyichen/下载/yt6801-linux-driver╘┤┬δ-1.0.27/src”
+make -C /lib/modules/6.8.7-300.fc40.x86_64/build M=/home/wangyichen/下载/yt6801-linux-driver╘┤┬δ-1.0.27/src clean
+make[2]: 进入目录“/usr/src/kernels/6.8.7-300.fc40.x86_64”
+make[2]: 离开目录“/usr/src/kernels/6.8.7-300.fc40.x86_64”
+make[1]: 离开目录“/home/wangyichen/下载/yt6801-linux-driver╘┤┬δ-1.0.27/src”
+
+
+make -C src/ modules
+make[1]: 进入目录“/home/wangyichen/下载/yt6801-linux-driver╘┤┬δ-1.0.27/src”
+make -C /lib/modules/6.8.7-300.fc40.x86_64/build M=/home/wangyichen/下载/yt6801-linux-driver╘┤┬δ-1.0.27/src modules
+make[2]: 进入目录“/usr/src/kernels/6.8.7-300.fc40.x86_64”
+  CC [M]  /home/wangyichen/下载/yt6801-linux-driver╘┤┬δ-1.0.27/src/fuxi-gmac-common.o
+make[2]: 离开目录“/usr/src/kernels/6.8.7-300.fc40.x86_64”
+make[1]: 离开目录“/home/wangyichen/下载/yt6801-linux-driver╘┤┬δ-1.0.27/src”
+Fail to make and please check manually.
+********************  error end  *********************************
+
+********************  start  *********************************
+2024年 04月 26日 星期五 20:10:35 CST
+Do not use sudo！
+Please run this file as root！！
+********************  error end  *********************************
+
+********************  start  *********************************
+2024年 04月 26日 星期五 20:10:37 CST
+Do not use sudo！
+Please run this file as root！！
+********************  error end  *********************************
+
+********************  start  *********************************
+2024年 04月 26日 星期五 20:10:48 CST
+Check old driver and unload it.
+Build Motorcomm NIC driver module and install
+
+CC:  cc
+CCVERSION:  14
+KERNEL_GCC_VERSION: 
+KVER:  6.8.7-300.fc40.x86_64
+
+
+make -C src/ clean
+make[1]: 进入目录“/home/wangyichen/下载/yt6801/src”
+make -C /lib/modules/6.8.7-300.fc40.x86_64/build M=/home/wangyichen/下载/yt6801/src clean
+make[2]: 进入目录“/usr/src/kernels/6.8.7-300.fc40.x86_64”
+make[2]: 离开目录“/usr/src/kernels/6.8.7-300.fc40.x86_64”
+make[1]: 离开目录“/home/wangyichen/下载/yt6801/src”
+
+
+make -C src/ modules
+make[1]: 进入目录“/home/wangyichen/下载/yt6801/src”
+make -C /lib/modules/6.8.7-300.fc40.x86_64/build M=/home/wangyichen/下载/yt6801/src modules
+make[2]: 进入目录“/usr/src/kernels/6.8.7-300.fc40.x86_64”
+  CC [M]  /home/wangyichen/下载/yt6801/src/fuxi-gmac-common.o
+make[2]: 离开目录“/usr/src/kernels/6.8.7-300.fc40.x86_64”
+make[1]: 离开目录“/home/wangyichen/下载/yt6801/src”
+Fail to make and please check manually.
+********************  error end  *********************************
+
+********************  start  *********************************
+2024年 04月 26日 星期五 21:02:31 CST
+Check old driver and unload it.
+Build Motorcomm NIC driver module and install
+
+CC:  cc
+CCVERSION:  14
+KERNEL_GCC_VERSION: 
+KVER:  6.8.7-300.fc40.x86_64
+
+
+make -C src/ clean
+make[1]: 进入目录“/home/wangyichen/下载/yt6801/src”
+make -C /lib/modules/6.8.7-300.fc40.x86_64/build M=/home/wangyichen/下载/yt6801/src clean
+make[2]: 进入目录“/usr/src/kernels/6.8.7-300.fc40.x86_64”
+make[2]: 离开目录“/usr/src/kernels/6.8.7-300.fc40.x86_64”
+make[1]: 离开目录“/home/wangyichen/下载/yt6801/src”
+
+
+make -C src/ modules
+make[1]: 进入目录“/home/wangyichen/下载/yt6801/src”
+make -C /lib/modules/6.8.7-300.fc40.x86_64/build M=/home/wangyichen/下载/yt6801/src modules
+make[2]: 进入目录“/usr/src/kernels/6.8.7-300.fc40.x86_64”
+  CC [M]  /home/wangyichen/下载/yt6801/src/fuxi-gmac-common.o
+  CC [M]  /home/wangyichen/下载/yt6801/src/fuxi-gmac-desc.o
+  CC [M]  /home/wangyichen/下载/yt6801/src/fuxi-gmac-ethtool.o
+  CC [M]  /home/wangyichen/下载/yt6801/src/fuxi-gmac-hw.o
+  CC [M]  /home/wangyichen/下载/yt6801/src/fuxi-gmac-net.o
+  CC [M]  /home/wangyichen/下载/yt6801/src/fuxi-gmac-pci.o
+  CC [M]  /home/wangyichen/下载/yt6801/src/fuxi-gmac-phy.o
+  CC [M]  /home/wangyichen/下载/yt6801/src/fuxi-efuse.o
+  CC [M]  /home/wangyichen/下载/yt6801/src/fuxi-dbg.o
+  CC [M]  /home/wangyichen/下载/yt6801/src/fuxi-gmac-debugfs.o
+  LD [M]  /home/wangyichen/下载/yt6801/src/yt6801.o
+  MODPOST /home/wangyichen/下载/yt6801/src/Module.symvers
+make[2]: 离开目录“/usr/src/kernels/6.8.7-300.fc40.x86_64”
+make[1]: 离开目录“/home/wangyichen/下载/yt6801/src”
+Fail to make and please check manually.
+********************  error end  *********************************
+
+********************  start  *********************************
+2024年 04月 26日 星期五 21:05:18 CST
+Check old driver and unload it.
+Build Motorcomm NIC driver module and install
+
+CC:  cc
+CCVERSION:  14
+KERNEL_GCC_VERSION: 
+KVER:  6.8.7-300.fc40.x86_64
+
+
+make -C src/ clean
+make[1]: 进入目录“/home/wangyichen/下载/yt6801/src”
+make -C /lib/modules/6.8.7-300.fc40.x86_64/build M=/home/wangyichen/下载/yt6801/src clean
+make[2]: 进入目录“/usr/src/kernels/6.8.7-300.fc40.x86_64”
+make[2]: 离开目录“/usr/src/kernels/6.8.7-300.fc40.x86_64”
+make[1]: 离开目录“/home/wangyichen/下载/yt6801/src”
+
+
+make -C src/ modules
+make[1]: 进入目录“/home/wangyichen/下载/yt6801/src”
+make -C /lib/modules/6.8.7-300.fc40.x86_64/build M=/home/wangyichen/下载/yt6801/src modules
+make[2]: 进入目录“/usr/src/kernels/6.8.7-300.fc40.x86_64”
+  CC [M]  /home/wangyichen/下载/yt6801/src/fuxi-gmac-common.o
+  CC [M]  /home/wangyichen/下载/yt6801/src/fuxi-gmac-desc.o
+  CC [M]  /home/wangyichen/下载/yt6801/src/fuxi-gmac-ethtool.o
+  CC [M]  /home/wangyichen/下载/yt6801/src/fuxi-gmac-hw.o
+  CC [M]  /home/wangyichen/下载/yt6801/src/fuxi-gmac-net.o
+  CC [M]  /home/wangyichen/下载/yt6801/src/fuxi-gmac-pci.o
+  CC [M]  /home/wangyichen/下载/yt6801/src/fuxi-gmac-phy.o
+  CC [M]  /home/wangyichen/下载/yt6801/src/fuxi-efuse.o
+  CC [M]  /home/wangyichen/下载/yt6801/src/fuxi-dbg.o
+  CC [M]  /home/wangyichen/下载/yt6801/src/fuxi-gmac-debugfs.o
+  LD [M]  /home/wangyichen/下载/yt6801/src/yt6801.o
+  MODPOST /home/wangyichen/下载/yt6801/src/Module.symvers
+make[2]: 离开目录“/usr/src/kernels/6.8.7-300.fc40.x86_64”
+make[1]: 离开目录“/home/wangyichen/下载/yt6801/src”
+Fail to make and please check manually.
+********************  error end  *********************************
+
+********************  start  *********************************
+2024年 04月 26日 星期五 21:06:31 CST
+Check old driver and unload it.
+Build Motorcomm NIC driver module and install
+
+CC:  cc
+CCVERSION:  14
+KERNEL_GCC_VERSION: 
+KVER:  6.8.7-300.fc40.x86_64
+
+
+make -C src/ clean
+make[1]: 进入目录“/home/wangyichen/下载/yt6801/src”
+make -C /lib/modules/6.8.7-300.fc40.x86_64/build M=/home/wangyichen/下载/yt6801/src clean
+make[2]: 进入目录“/usr/src/kernels/6.8.7-300.fc40.x86_64”
+make[2]: 离开目录“/usr/src/kernels/6.8.7-300.fc40.x86_64”
+make[1]: 离开目录“/home/wangyichen/下载/yt6801/src”
+
+
+make -C src/ modules
+make[1]: 进入目录“/home/wangyichen/下载/yt6801/src”
+make -C /lib/modules/6.8.7-300.fc40.x86_64/build M=/home/wangyichen/下载/yt6801/src modules
+make[2]: 进入目录“/usr/src/kernels/6.8.7-300.fc40.x86_64”
+  CC [M]  /home/wangyichen/下载/yt6801/src/fuxi-gmac-common.o
+  CC [M]  /home/wangyichen/下载/yt6801/src/fuxi-gmac-desc.o
+  CC [M]  /home/wangyichen/下载/yt6801/src/fuxi-gmac-ethtool.o
+  CC [M]  /home/wangyichen/下载/yt6801/src/fuxi-gmac-hw.o
+  CC [M]  /home/wangyichen/下载/yt6801/src/fuxi-gmac-net.o
+  CC [M]  /home/wangyichen/下载/yt6801/src/fuxi-gmac-pci.o
+  CC [M]  /home/wangyichen/下载/yt6801/src/fuxi-gmac-phy.o
+  CC [M]  /home/wangyichen/下载/yt6801/src/fuxi-efuse.o
+  CC [M]  /home/wangyichen/下载/yt6801/src/fuxi-dbg.o
+  CC [M]  /home/wangyichen/下载/yt6801/src/fuxi-gmac-debugfs.o
+  LD [M]  /home/wangyichen/下载/yt6801/src/yt6801.o
+  MODPOST /home/wangyichen/下载/yt6801/src/Module.symvers
+make[2]: 离开目录“/usr/src/kernels/6.8.7-300.fc40.x86_64”
+make[1]: 离开目录“/home/wangyichen/下载/yt6801/src”
+Fail to make and please check manually.
+********************  error end  *********************************
+
+********************  start  *********************************
+2024年 04月 26日 星期五 21:07:24 CST
+Check old driver and unload it.
+Build Motorcomm NIC driver module and install
+
+CC:  cc
+CCVERSION:  14
+KERNEL_GCC_VERSION: 
+KVER:  6.8.7-300.fc40.x86_64
+
+
+make -C src/ clean
+make[1]: 进入目录“/home/wangyichen/下载/yt6801/src”
+make -C /lib/modules/6.8.7-300.fc40.x86_64/build M=/home/wangyichen/下载/yt6801/src clean
+make[2]: 进入目录“/usr/src/kernels/6.8.7-300.fc40.x86_64”
+make[2]: 离开目录“/usr/src/kernels/6.8.7-300.fc40.x86_64”
+make[1]: 离开目录“/home/wangyichen/下载/yt6801/src”
+
+
+make -C src/ modules
+make[1]: 进入目录“/home/wangyichen/下载/yt6801/src”
+make -C /lib/modules/6.8.7-300.fc40.x86_64/build M=/home/wangyichen/下载/yt6801/src modules
+make[2]: 进入目录“/usr/src/kernels/6.8.7-300.fc40.x86_64”
+  CC [M]  /home/wangyichen/下载/yt6801/src/fuxi-gmac-common.o
+  CC [M]  /home/wangyichen/下载/yt6801/src/fuxi-gmac-desc.o
+  CC [M]  /home/wangyichen/下载/yt6801/src/fuxi-gmac-ethtool.o
+  CC [M]  /home/wangyichen/下载/yt6801/src/fuxi-gmac-hw.o
+  CC [M]  /home/wangyichen/下载/yt6801/src/fuxi-gmac-net.o
+  CC [M]  /home/wangyichen/下载/yt6801/src/fuxi-gmac-pci.o
+  CC [M]  /home/wangyichen/下载/yt6801/src/fuxi-gmac-phy.o
+  CC [M]  /home/wangyichen/下载/yt6801/src/fuxi-efuse.o
+  CC [M]  /home/wangyichen/下载/yt6801/src/fuxi-dbg.o
+  CC [M]  /home/wangyichen/下载/yt6801/src/fuxi-gmac-debugfs.o
+  LD [M]  /home/wangyichen/下载/yt6801/src/yt6801.o
+  MODPOST /home/wangyichen/下载/yt6801/src/Module.symvers
+make[2]: 离开目录“/usr/src/kernels/6.8.7-300.fc40.x86_64”
+make[1]: 离开目录“/home/wangyichen/下载/yt6801/src”
+Fail to make and please check manually.
+********************  error end  *********************************
+
+********************  start  *********************************
+2024年 04月 26日 星期五 21:07:55 CST
+Check old driver and unload it.
+Build Motorcomm NIC driver module and install
+
+CC:  cc
+CCVERSION:  14
+KERNEL_GCC_VERSION: 
+KVER:  6.8.7-300.fc40.x86_64
+
+
+make -C src/ clean
+make[1]: 进入目录“/home/wangyichen/下载/yt6801/src”
+make -C /lib/modules/6.8.7-300.fc40.x86_64/build M=/home/wangyichen/下载/yt6801/src clean
+make[2]: 进入目录“/usr/src/kernels/6.8.7-300.fc40.x86_64”
+make[2]: 离开目录“/usr/src/kernels/6.8.7-300.fc40.x86_64”
+make[1]: 离开目录“/home/wangyichen/下载/yt6801/src”
+
+
+make -C src/ modules
+make[1]: 进入目录“/home/wangyichen/下载/yt6801/src”
+make -C /lib/modules/6.8.7-300.fc40.x86_64/build M=/home/wangyichen/下载/yt6801/src modules
+make[2]: 进入目录“/usr/src/kernels/6.8.7-300.fc40.x86_64”
+  CC [M]  /home/wangyichen/下载/yt6801/src/fuxi-gmac-common.o
+  CC [M]  /home/wangyichen/下载/yt6801/src/fuxi-gmac-desc.o
+  CC [M]  /home/wangyichen/下载/yt6801/src/fuxi-gmac-ethtool.o
+  CC [M]  /home/wangyichen/下载/yt6801/src/fuxi-gmac-hw.o
+  CC [M]  /home/wangyichen/下载/yt6801/src/fuxi-gmac-net.o
+  CC [M]  /home/wangyichen/下载/yt6801/src/fuxi-gmac-pci.o
+  CC [M]  /home/wangyichen/下载/yt6801/src/fuxi-gmac-phy.o
+  CC [M]  /home/wangyichen/下载/yt6801/src/fuxi-efuse.o
+  CC [M]  /home/wangyichen/下载/yt6801/src/fuxi-dbg.o
+  CC [M]  /home/wangyichen/下载/yt6801/src/fuxi-gmac-debugfs.o
+  LD [M]  /home/wangyichen/下载/yt6801/src/yt6801.o
+  MODPOST /home/wangyichen/下载/yt6801/src/Module.symvers
+make[2]: 离开目录“/usr/src/kernels/6.8.7-300.fc40.x86_64”
+make[1]: 离开目录“/home/wangyichen/下载/yt6801/src”
+Fail to make and please check manually.
+********************  error end  *********************************
+
+********************  start  *********************************
+2024年 04月 26日 星期五 21:08:20 CST
+Check old driver and unload it.
+Build Motorcomm NIC driver module and install
+
+CC:  cc
+CCVERSION:  14
+KERNEL_GCC_VERSION: 
+KVER:  6.8.7-300.fc40.x86_64
+
+
+make -C src/ clean
+make[1]: 进入目录“/home/wangyichen/下载/yt6801/src”
+make -C /lib/modules/6.8.7-300.fc40.x86_64/build M=/home/wangyichen/下载/yt6801/src clean
+make[2]: 进入目录“/usr/src/kernels/6.8.7-300.fc40.x86_64”
+make[2]: 离开目录“/usr/src/kernels/6.8.7-300.fc40.x86_64”
+make[1]: 离开目录“/home/wangyichen/下载/yt6801/src”
+
+
+make -C src/ modules
+make[1]: 进入目录“/home/wangyichen/下载/yt6801/src”
+make -C /lib/modules/6.8.7-300.fc40.x86_64/build M=/home/wangyichen/下载/yt6801/src modules
+make[2]: 进入目录“/usr/src/kernels/6.8.7-300.fc40.x86_64”
+  CC [M]  /home/wangyichen/下载/yt6801/src/fuxi-gmac-common.o
+  CC [M]  /home/wangyichen/下载/yt6801/src/fuxi-gmac-desc.o
+  CC [M]  /home/wangyichen/下载/yt6801/src/fuxi-gmac-ethtool.o
+  CC [M]  /home/wangyichen/下载/yt6801/src/fuxi-gmac-hw.o
+  CC [M]  /home/wangyichen/下载/yt6801/src/fuxi-gmac-net.o
+  CC [M]  /home/wangyichen/下载/yt6801/src/fuxi-gmac-pci.o
+  CC [M]  /home/wangyichen/下载/yt6801/src/fuxi-gmac-phy.o
+  CC [M]  /home/wangyichen/下载/yt6801/src/fuxi-efuse.o
+  CC [M]  /home/wangyichen/下载/yt6801/src/fuxi-dbg.o
+  CC [M]  /home/wangyichen/下载/yt6801/src/fuxi-gmac-debugfs.o
+  LD [M]  /home/wangyichen/下载/yt6801/src/yt6801.o
+  MODPOST /home/wangyichen/下载/yt6801/src/Module.symvers
+make[2]: 离开目录“/usr/src/kernels/6.8.7-300.fc40.x86_64”
+make[1]: 离开目录“/home/wangyichen/下载/yt6801/src”
+Fail to make and please check manually.
+********************  error end  *********************************
+
+********************  start  *********************************
+2024年 04月 26日 星期五 21:08:50 CST
+Check old driver and unload it.
+Build Motorcomm NIC driver module and install
+
+CC:  cc
+CCVERSION:  14
+KERNEL_GCC_VERSION: 
+KVER:  6.8.7-300.fc40.x86_64
+
+
+make -C src/ clean
+make[1]: 进入目录“/home/wangyichen/下载/yt6801/src”
+make -C /lib/modules/6.8.7-300.fc40.x86_64/build M=/home/wangyichen/下载/yt6801/src clean
+make[2]: 进入目录“/usr/src/kernels/6.8.7-300.fc40.x86_64”
+make[2]: 离开目录“/usr/src/kernels/6.8.7-300.fc40.x86_64”
+make[1]: 离开目录“/home/wangyichen/下载/yt6801/src”
+
+
+make -C src/ modules
+make[1]: 进入目录“/home/wangyichen/下载/yt6801/src”
+make -C /lib/modules/6.8.7-300.fc40.x86_64/build M=/home/wangyichen/下载/yt6801/src modules
+make[2]: 进入目录“/usr/src/kernels/6.8.7-300.fc40.x86_64”
+  CC [M]  /home/wangyichen/下载/yt6801/src/fuxi-gmac-common.o
+  CC [M]  /home/wangyichen/下载/yt6801/src/fuxi-gmac-desc.o
+  CC [M]  /home/wangyichen/下载/yt6801/src/fuxi-gmac-ethtool.o
+  CC [M]  /home/wangyichen/下载/yt6801/src/fuxi-gmac-hw.o
+  CC [M]  /home/wangyichen/下载/yt6801/src/fuxi-gmac-net.o
+  CC [M]  /home/wangyichen/下载/yt6801/src/fuxi-gmac-pci.o
+  CC [M]  /home/wangyichen/下载/yt6801/src/fuxi-gmac-phy.o
+  CC [M]  /home/wangyichen/下载/yt6801/src/fuxi-efuse.o
+  CC [M]  /home/wangyichen/下载/yt6801/src/fuxi-dbg.o
+  CC [M]  /home/wangyichen/下载/yt6801/src/fuxi-gmac-debugfs.o
+  LD [M]  /home/wangyichen/下载/yt6801/src/yt6801.o
+  MODPOST /home/wangyichen/下载/yt6801/src/Module.symvers
+  CC [M]  /home/wangyichen/下载/yt6801/src/yt6801.mod.o
+  LD [M]  /home/wangyichen/下载/yt6801/src/yt6801.ko
+  BTF [M] /home/wangyichen/下载/yt6801/src/yt6801.ko
+make[2]: 离开目录“/usr/src/kernels/6.8.7-300.fc40.x86_64”
+make[1]: 离开目录“/home/wangyichen/下载/yt6801/src”
+
+
+make -C src/ install
+make[1]: 进入目录“/home/wangyichen/下载/yt6801/src”
+KFILE:  yt6801
+KDST:  kernel/drivers/net/ethernet/motorcomm
+make -C /lib/modules/6.8.7-300.fc40.x86_64/build M=/home/wangyichen/下载/yt6801/src INSTALL_MOD_DIR=kernel/drivers/net/ethernet/motorcomm modules_install
+make[2]: 进入目录“/usr/src/kernels/6.8.7-300.fc40.x86_64”
+  INSTALL /lib/modules/6.8.7-300.fc40.x86_64/kernel/drivers/net/ethernet/motorcomm/yt6801.ko
+  SIGN    /lib/modules/6.8.7-300.fc40.x86_64/kernel/drivers/net/ethernet/motorcomm/yt6801.ko
+  DEPMOD  /lib/modules/6.8.7-300.fc40.x86_64
+make[2]: 离开目录“/usr/src/kernels/6.8.7-300.fc40.x86_64”
+sudo ls -l /lib/modules/6.8.7-300.fc40.x86_64/kernel/drivers/net/ethernet/motorcomm/
+总计 5020
+-rw-r--r--. 1 root root 5139864  4月26日 21:08 yt6801.ko
+depmod 6.8.7-300.fc40.x86_64
+modprobe yt6801
+/lib/modules/6.8.7-300.fc40.x86_64/kernel/drivers/net/ethernet/motorcomm/yt6801.ko: ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), BuildID[sha1]=9893ead22ccf48da1aaf946e335b67ec90982bd4, with debug_info, not stripped
+install done.
+filename:       /lib/modules/6.8.7-300.fc40.x86_64/kernel/drivers/net/ethernet/motorcomm/yt6801.ko
+license:        Dual BSD/GPL
+license:        Dual BSD/GPL
+author:         Frank <Frank.Sae@motor-comm.com>
+version:        1.0.27
+description:    Motorcomm FUXI GMAC Driver
+rhelversion:    9.99
+srcversion:     84FEDC6F7F04CB3891645EF
+alias:          pci:v00001F0Ad00006801sv*sd*bc*sc*i*
+depends:        
+retpoline:      Y
+name:           yt6801
+vermagic:       6.8.7-300.fc40.x86_64 SMP preempt mod_unload 
+parm:           debug:FUXI ethernet debug level (0=none,...,16=all) (int)
+make[1]: 离开目录“/home/wangyichen/下载/yt6801/src”
+
+Make ok.
+Install ok.
+********************  normal end  *********************************
+
