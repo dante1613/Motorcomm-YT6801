@@ -10,6 +10,9 @@ Donwload [Proxmox VE ISO Installer](https://www.proxmox.com/en/downloads/proxmox
 ![](https://raw.githubusercontent.com/dante1613/Motorcomm-YT6801/main/Screenshots/Proxmox/gateway%20%26%20dns.png)
 
 ### 3.  After successful installation, connect to the IP address via the [Putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html "Putty")
+Login: **root**
+Password: ***your proxmox password***
+
 ![](https://raw.githubusercontent.com/dante1613/Motorcomm-YT6801/main/Screenshots/Proxmox/putty.png)
 
 ### 4. Disable LID to work without an HDMI cable
@@ -35,7 +38,7 @@ Donwload [Proxmox VE ISO Installer](https://www.proxmox.com/en/downloads/proxmox
 
 	cat /etc/apt/sources.list
 
-------------
+![](https://raw.githubusercontent.com/dante1613/Motorcomm-YT6801/main/Screenshots/Proxmox/source%20lists.png)
 
 ### 3. Update repositories
 	apt-get update
