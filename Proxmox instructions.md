@@ -28,21 +28,17 @@ Donwload [Proxmox VE ISO Installer](https://www.proxmox.com/en/downloads/proxmox
 ------------
 
 
-### 1. Edit source list
-	nano /etc/apt/sources.list
+### 1. Add no-subscription repository to source list
+	echo -e "deb http://download.proxmox.com/debian/pve bookworm pve-no-subscription" | tee -a /etc/apt/sources.list
 
-### 2. Add to end file
+### 2. Check
 
-	deb http://download.proxmox.com/debian/pve bookworm pve-no-subscription
-
-![](https://raw.githubusercontent.com/dante1613/Motorcomm-YT6801/main/Screenshots/Proxmox/source%20list.png)
-
-- #### Save **ctrl + s** and exit **ctrl +x**
+	cat /etc/apt/sources.list
 
 ------------
 
 ### 3. Update repositories
-	apt-get update -y
+	apt-get update
 ### 4. Upgrade system
 	apt upgrade -y
 ### 5. Reboot
