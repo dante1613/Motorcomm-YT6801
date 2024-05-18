@@ -1,19 +1,33 @@
-### Disable LID to work without an HDMI cable
+## Instructions to install Proxmox & ethernet driver YT6801 for MLLSE M2
+<details>
+  <summary>0. Install Proxmox</summary>
+	
+### 1. Connect usb-lan adapter, monitor by HDMI and boot from USB
+Donwload [Proxmox VE ISO Installer](https://www.proxmox.com/en/downloads/proxmox-virtual-environment/iso "Proxmox VE ISO Installer") and prepare a USB  by [balenaEtcher](https://etcher.balena.io/#download-etcher "balenaEtcher"), after that boot from USB
+
+### 2. Configure the host machine
+*Change IP adress and subnet to yours
+![](https://raw.githubusercontent.com/dante1613/Motorcomm-YT6801/main/Screenshots/Proxmox/gateway%20%26%20dns.png)
+
+### 3.  After successful installation, connect to the IP address via the [Putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html "Putty")
+![](https://raw.githubusercontent.com/dante1613/Motorcomm-YT6801/main/Screenshots/Proxmox/putty.png)
+
+### 4. Disable LID to work without an HDMI cable
 	echo -e "HandleLidSwitch=ignore" | tee -a /etc/systemd/logind.conf
-### Check
+### 5. Check
 	cat /etc/systemd/logind.conf
 ![](https://raw.githubusercontent.com/dante1613/Motorcomm-YT6801/main/Screenshots/Proxmox/disabled%20lid.png)
-### Reboot
+### 6. Reboot
 	reboot
-
-------------
-
-
-### Connect by usb-lan and install proxmox
+</details>
 <details>
   <summary>1. Install driver</summary>
 
 ### 0. Open putty and connect to IP proxmox instance
+
+------------
+
+
 ### 1. Edit source list
 	nano /etc/apt/sources.list
 
