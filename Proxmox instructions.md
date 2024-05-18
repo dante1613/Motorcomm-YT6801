@@ -89,4 +89,4 @@ Password: **your proxmox password**
 
 ### 4. Reboot
 	reboot
-### 5. Final step. Unplug cable from usb lan and connect to YT6801
+### 5. Final step. Unplug cable from usb-lan and connect to lan port MLLSE M2
