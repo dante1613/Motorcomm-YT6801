@@ -17,6 +17,7 @@ Password: **your proxmox password**
 
 ### 4. Disable LID to work without an HDMI cable
 If you do not disable LID (like on notebook) in the config, it will go to sleep when the HDMI cable is disconnected, and will not boot without a connected monitor. Also will not boot with or not VGA if not disable
+
 	echo -e "HandleLidSwitch=ignore" | tee -a /etc/systemd/logind.conf
 ### 5. Check
 	cat /etc/systemd/logind.conf
