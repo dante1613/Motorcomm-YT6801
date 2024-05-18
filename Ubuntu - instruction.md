@@ -47,3 +47,7 @@ If you do not disable LID (like on notebook **L(° O °L**) in the config, it wi
 ![](https://raw.githubusercontent.com/dante1613/Motorcomm-YT6801/main/Screenshots/Proxmox/disabled%20lid.png)
 ### 3. Reboot
 	reboot
+
+------------
+
+# IMPORTANT: after upgrade kernel, you need repeat steps 9, 11 and 13
