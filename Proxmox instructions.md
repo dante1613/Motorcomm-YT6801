@@ -2,6 +2,7 @@
 	echo -e "HandleLidSwitch=ignore" | tee -a /etc/systemd/logind.conf
 ### Check
 	cat /etc/systemd/logind.conf
+![](https://raw.githubusercontent.com/dante1613/Motorcomm-YT6801/main/Screenshots/Proxmox/disabled%20lid.png)
 ### Reboot
 	reboot
 
