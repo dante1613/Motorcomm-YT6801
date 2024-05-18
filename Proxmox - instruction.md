@@ -1,4 +1,4 @@
-## Instructions to install Proxmox & ethernet driver YT6801 for MLLSE M2
+## Instructions to install Proxmox (8.2) & ethernet driver YT6801 for MLLSE M2
 <details>
   <summary>0. Install Proxmox</summary>
 	
@@ -16,6 +16,7 @@ Password: **your proxmox password**
 ![](https://raw.githubusercontent.com/dante1613/Motorcomm-YT6801/main/Screenshots/Proxmox/putty.png)
 
 ### 4. Disable LID to work without an HDMI cable
+If you do not disable LID (like on notebook) in the config, it will go to sleep when the HDMI cable is disconnected, and will not boot without a connected monitor. Also will not boot with or not VGA if not disable
 	echo -e "HandleLidSwitch=ignore" | tee -a /etc/systemd/logind.conf
 ### 5. Check
 	cat /etc/systemd/logind.conf
