@@ -11,7 +11,7 @@ Donwload [Proxmox VE ISO Installer](https://www.proxmox.com/en/downloads/proxmox
 
 ### 3.  After successful installation, connect to the IP address via the [Putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html "Putty")
 Login: **root**
-Password: ***your proxmox password***
+Password: **your proxmox password**
 
 ![](https://raw.githubusercontent.com/dante1613/Motorcomm-YT6801/main/Screenshots/Proxmox/putty.png)
 
@@ -46,6 +46,7 @@ Password: ***your proxmox password***
 	apt upgrade -y
 ### 5. Reboot
 	reboot
+**After reboot, connect again via Putty**
 ### 6. Install headers
 	apt install pve-headers-$(uname -r) -y
 ### 7. Install DKMS
@@ -67,6 +68,7 @@ Password: ***your proxmox password***
 ![](https://raw.githubusercontent.com/dante1613/Motorcomm-YT6801/main/Screenshots/Proxmox/succefull%20load%20driver.png)
 ### 13. Reboot
 	reboot
+**After reboot, connect again via Putty**
 ### 14. Check load module at startup
 	lsmod | grep yt6801
 </details>
