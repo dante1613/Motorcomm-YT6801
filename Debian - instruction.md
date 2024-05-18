@@ -35,8 +35,8 @@
 
 ------------
 
-### OPTIONAL: Disable LID to work without  HDMI cable
-If you do not disable LID in the config, it will go to sleep when the HDMI cable is disconnected, and will not boot without a connected monitor. Also will not work with or not VGA if not disable
+### OPTIONAL: Disable LID to work without HDMI cable
+If you do not disable LID (like on notebook) in the config, it will go to sleep when the HDMI cable is disconnected, and will not boot without a connected monitor. Also will not boot with or not VGA if not disable
 ### 1. Add lines to config file
 	echo -e "HandleLidSwitch=ignore" | tee -a /etc/systemd/logind.conf
 ### 2. Check
