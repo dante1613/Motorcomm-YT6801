@@ -51,7 +51,10 @@
 	sudo dpkg -i tuxedo-yt6801_1.0.28-1_all.deb
 ### 4. Creates a list of module dependencies
 	sudo depmod
-### 5. Reboot
+### 5. Check load module
+	lsmod | grep yt6801
+![](https://raw.githubusercontent.com/dante1613/Motorcomm-YT6801/main/Screenshots/Proxmox/succefull%20load%20driver.png)
+### 6. Reboot
 	reboot
  
 </details>
