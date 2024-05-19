@@ -32,22 +32,13 @@
 ### 12. Check load module at startup
 	lsmod | grep yt6801
 
-
 ------------
 
-### OPTIONAL: Disable LID to work without HDMI cable
-If you do not disable LID (like on notebook **L(° O °L**) in the config, it will go to sleep when the HDMI cable is disconnected, and will not boot without a connected monitor. Also will not boot with or not VGA if not disable
-### 1. Add lines to config file
-	echo -e "HandleLidSwitch=ignore" | tee -a /etc/systemd/logind.conf
-### 2. Check
-	cat /etc/systemd/logind.conf
-![](https://raw.githubusercontent.com/dante1613/Motorcomm-YT6801/main/Screenshots/Proxmox/disabled%20lid.png)
-### 3. Reboot
-	systemctl reboot
+### IMPORTANT: after upgrade kernel (ONLY), you need rebuild driver
 
-------------
-
-# IMPORTANT: after upgrade kernel (ONLY), you need rebuild driver 
+<details>
+  <summary>Guide</summary>
+	
 ### 1. Update headers
 	sudo apt install linux-headers-$(uname -r)
 ### 2. Download driver
@@ -58,3 +49,23 @@ If you do not disable LID (like on notebook **L(° O °L**) in the config, it wi
     sudo depmod
 ### 5. Reboot
 	systemctl reboot
+ 
+</details>
+
+------------
+
+### OPTIONAL: Disable LID to work without HDMI cable
+
+<details>
+  <summary>Guide</summary>
+	
+If you do not disable LID (like on notebook **L(° O °L**) in the config, it will go to sleep when the HDMI cable is disconnected, and will not boot without a connected monitor. Also will not boot with or not VGA if not disable
+### 1. Add lines to config file
+	echo -e "HandleLidSwitch=ignore" | tee -a /etc/systemd/logind.conf
+### 2. Check
+	cat /etc/systemd/logind.conf
+![](https://raw.githubusercontent.com/dante1613/Motorcomm-YT6801/main/Screenshots/Proxmox/disabled%20lid.png)
+### 3. Reboot
+	systemctl reboot
+ 
+</details>
