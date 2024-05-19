@@ -24,6 +24,10 @@ If you do not disable LID (like on notebook **L(° O °L**) in the config, it wi
 ![](https://raw.githubusercontent.com/dante1613/Motorcomm-YT6801/main/Screenshots/Proxmox/disabled%20lid.png)
 ### 6. Reboot
 	reboot
+ 
+------------
+
+
 </details>
 <details>
   <summary>1. Install driver</summary>
@@ -53,10 +57,6 @@ If you do not disable LID (like on notebook **L(° O °L**) in the config, it wi
 	apt install pve-headers-$(uname -r) -y
 ### 7. Install DKMS
 	apt install dkms -y
-
-------------
-
-
 ### 8. Download driver
 	wget https://github.com/dante1613/Motorcomm-YT6801/raw/main/tuxedo-yt6801/tuxedo-yt6801_1.0.28-1_all.deb
 ### 9. Install driver
@@ -74,6 +74,9 @@ If you do not disable LID (like on notebook **L(° O °L**) in the config, it wi
 ### 14. Check load module at startup
 	lsmod | grep yt6801
  
+------------
+
+
 </details>
 
 <details>
@@ -94,6 +97,8 @@ If you do not disable LID (like on notebook **L(° O °L**) in the config, it wi
 ### 4. Reboot
 	reboot
 ### 5. Final step. Unplug cable from usb-lan and connect to lan port MLLSE M2
+
+------------
 
 </details>
 
@@ -120,4 +125,7 @@ If you do not disable LID (like on notebook **L(° O °L**) in the config, it wi
 	lsmod | grep yt6801
 ![](https://raw.githubusercontent.com/dante1613/Motorcomm-YT6801/main/Screenshots/Proxmox/succefull%20load%20driver.png)
  
+------------
+
+
 </details>
