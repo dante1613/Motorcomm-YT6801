@@ -44,3 +44,17 @@ If you do not disable LID (like on notebook **L(° O °L**) in the config, it wi
 ![](https://raw.githubusercontent.com/dante1613/Motorcomm-YT6801/main/Screenshots/Proxmox/disabled%20lid.png)
 ### 3. Reboot
 	systemctl reboot
+
+------------
+
+# IMPORTANT: after upgrade kernel (ONLY), you need rebuild driver 
+### 1. Update headers
+	sudo apt install linux-headers-$(uname -r)
+### 2. Download driver
+	wget https://github.com/dante1613/Motorcomm-YT6801/raw/main/tuxedo-yt6801/tuxedo-yt6801_1.0.28-1_all.deb
+### 3. Install driver
+	sudo dpkg -i tuxedo-yt6801_1.0.28-1_all.deb
+### 4. Creates a list of module dependencies
+    sudo depmod
+### 5. Reboot
+	systemctl reboot
