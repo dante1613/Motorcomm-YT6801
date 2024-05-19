@@ -64,7 +64,7 @@ If you do not disable LID (like on notebook **L(° O °L**) in the config, it wi
 ### 10. Load module at startup
 	echo yt6801 | tee -a /etc/modules
 ### 11. Creates a list of module dependencies
-    	depmod
+	depmod
 ### 12. Check load module
 	lsmod | grep yt6801
 ![](https://raw.githubusercontent.com/dante1613/Motorcomm-YT6801/main/Screenshots/Proxmox/succefull%20load%20driver.png)
