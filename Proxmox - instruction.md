@@ -124,6 +124,8 @@ If you do not disable LID (like on notebook **L(° O °L**) in the config, it wi
 ### 6. Check load module
 	lsmod | grep yt6801
 ![](https://raw.githubusercontent.com/dante1613/Motorcomm-YT6801/main/Screenshots/Proxmox/succefull%20load%20driver.png)
+
+### 7. Final step. Unplug cable from usb-lan and connect to lan port MLLSE M2
  
 ------------
 
