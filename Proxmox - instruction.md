@@ -73,7 +73,9 @@ If you do not disable LID (like on notebook **L(° O °L**) in the config, it wi
 **After reboot, connect again via Putty**
 ### 14. Check load module at startup
 	lsmod | grep yt6801
+ 
 </details>
+
 <details>
   <summary>2. Change main ethernet interface to YT6801</summary>
 
@@ -92,3 +94,23 @@ If you do not disable LID (like on notebook **L(° O °L**) in the config, it wi
 ### 4. Reboot
 	reboot
 ### 5. Final step. Unplug cable from usb-lan and connect to lan port MLLSE M2
+
+</details>
+
+### IMPORTANT: after upgrade kernel (ONLY), you need rebuild driver
+
+<details>
+  <summary>Guide</summary>
+	
+### 1. Update headers
+	sudo apt install linux-headers-$(uname -r)
+### 2. Download driver
+	wget https://github.com/dante1613/Motorcomm-YT6801/raw/main/tuxedo-yt6801/tuxedo-yt6801_1.0.28-1_all.deb
+### 3. Install driver
+	sudo dpkg -i tuxedo-yt6801_1.0.28-1_all.deb
+### 4. Creates a list of module dependencies
+    sudo depmod
+### 5. Reboot
+	systemctl reboot
+ 
+</details>
