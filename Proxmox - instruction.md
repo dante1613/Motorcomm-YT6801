@@ -99,18 +99,21 @@ If you do not disable LID (like on notebook **L(° O °L**) in the config, it wi
 
 ### IMPORTANT: after upgrade kernel (ONLY), you need rebuild driver
 
+
 <details>
   <summary>Guide</summary>
-	
+
+#### Again connect usb-lan adapter and connect to the IP address via the Putty
+ 
 ### 1. Update headers
-	sudo apt install linux-headers-$(uname -r)
+	apt install pve-headers-$(uname -r) -y
 ### 2. Download driver
 	wget https://github.com/dante1613/Motorcomm-YT6801/raw/main/tuxedo-yt6801/tuxedo-yt6801_1.0.28-1_all.deb
 ### 3. Install driver
-	sudo dpkg -i tuxedo-yt6801_1.0.28-1_all.deb
+	dpkg -i tuxedo-yt6801_1.0.28-1_all.deb
 ### 4. Creates a list of module dependencies
-    sudo depmod
+	depmod
 ### 5. Reboot
-	systemctl reboot
+	reboot
  
 </details>
