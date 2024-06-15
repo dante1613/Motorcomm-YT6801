@@ -1,4 +1,4 @@
-## Instruction to install ethernet driver YT6801 for MLLSE M2 for Ubuntu 24.04 LTS
+## Instruction to install ethernet driver YT6801 for MLLSE M2 & MLLSE M2 AIR for Ubuntu 24.04 LTS
 
 ### 0. Connect by Wi-Fi and open terminal
 
