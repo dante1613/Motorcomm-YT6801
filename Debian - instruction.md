@@ -1,4 +1,4 @@
-## Instruction to install ethernet driver YT6801 for MLLSE M2 for Debian 12 (bookworm)
+## Instruction to install ethernet driver YT6801 for MLLSE M2 & MLLSE M2 AIR for Debian 12 (bookworm)
 
 ### 0. Connect by Wi-Fi and open terminal
 
