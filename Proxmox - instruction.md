@@ -1,4 +1,4 @@
-## Instructions to install Proxmox (8.2) & ethernet driver YT6801 for MLLSE M2
+## Instructions to install Proxmox (8.2) & ethernet driver YT6801 for MLLSE M2 & MLLSE M2 AIR
 <details>
   <summary>0. Install Proxmox</summary>
 	
