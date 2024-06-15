@@ -3,7 +3,7 @@ Driver for Motorcomm YT6801
 
 ------------
 
-### Instructions for installing driver for mini PC [MLLSE M2](http://aliexpress.com/item/1005006510890816.html? "MLLSE M2") for different OS
+### Instructions for installing driver for mini PC [MLLSE M2](http://aliexpress.com/item/1005006510890816.html? "MLLSE M2") & MLLSE M2 AIR for different OS
 
 ------------
 
